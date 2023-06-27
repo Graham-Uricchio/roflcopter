@@ -1,0 +1,29 @@
+ROFLCOPTER n string0,string1,string2,string3,string4,string5,string6,string7,string8,str1ng0,string2,str1ng3,str1ng4 ;
+    ;
+    r "How many ROFLS would you like to have? ",x
+    ;
+    s string0="              :LOL:ROFL:ROFL     "
+    s string1="                ^                "
+    s string2="           /-------------        "
+    s string3="   LOL======           []\       "
+    s string4="            \             \      "
+    s string5="             \_____________]     "
+    s string6="                I      I         "
+    s string7="            ---------------/     "
+    s string8="          ROFLCOPTER LOL         "
+    ;
+    s str1ng0="     ROFL:ROFL:LOL:              "
+    s str1ng3="    O ======           []\       "
+    s str1ng2="    L      /-------------        "
+    s str1ng4="    L       \             \      "
+    ;
+    f y=0:1:x d
+    . w #
+    . w !,string0,!,string1,!,string2,!,string3,!,string4,!,string5,!,string6,!,string7,!,!,string8,!,!,!
+    . h 0.5
+    . w #
+    . w !,str1ng0,!,string1,!,str1ng2,!,str1ng3,!,str1ng4,!,string5,!,string6,!,string7,!,!,string8,!,!,! ;
+    . h 0.5
+    ;
+    ;
+    q
